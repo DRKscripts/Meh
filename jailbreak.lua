@@ -1,6 +1,6 @@
-local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/7yhx/kwargs_Ui_Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local JailBreak = Library.CreateLib("DRK Hub - JailBreak", "BloodTheme")
+local JailBreak = Library.CreateLib("DRK Hub - JailBreak", "DarkTheme")
 
 local Main = JailBreak:NewTab("Main")
 local Guns = Main:NewSection("Gun Stuff")
@@ -110,9 +110,9 @@ local Player = JailBreak:NewTab("Local Player")
 
     local About = JailBreak:NewTab("About")
     local Version = About:NewSection("Version 1.0.2")
-    local Credit = About:NewSection("Made By Itz AxonZ")
-    local Close = About:NewSection("Press G To Close The Gui")
-    Close:NewKeybind("Close/Open UI", "Opens And Closes The Gui", Enum.KeyCode.G, function()
+    local Credit = About:NewSection("Made By DRKscripts")
+    local Close = About:NewSection("Press F To Close The Gui")
+    Close:NewKeybind("Close/Open UI", "Opens And Closes The Gui", Enum.KeyCode.F, function()
         Library:ToggleUI()
     end)
 
